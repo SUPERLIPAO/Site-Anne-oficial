@@ -211,3 +211,7 @@
 
   /* sem moldura atrás da foto */
   .photo-frame::before{display:none;}
+
+  /* navegação dos reels */
+  .reel-frame{touch-action:pan-y; user-select:none; -webkit-user-select:none;}
+  .reel-frame{cursor:grab;}

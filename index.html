@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Anne Ferreira — Marketing Digital</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <div class="brand">Anne Ferreira</div>
+    <nav>
+      <a href="#servicos">Serviços</a>
+      <a href="#plano">Plano</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap">
+  <section class="hero" id="topo">
+    <div>
+      <h1>Sua rede social, cuidada com estratégia e presença.</h1>
+      <p class="lede">Gerenciamento completo de Instagram para pequenas empresas: conteúdo planejado, criado e acompanhado mês a mês.</p>
+      <div class="cta-row">
+        <a class="btn btn-primary" href="https://wa.me/5517988165441" target="_blank" rel="noopener">Falar no WhatsApp</a>
+        <a class="btn btn-ghost" href="https://instagram.com/anne_ferreira_videomaker" target="_blank" rel="noopener">Ver Instagram</a>
+      </div>
+    </div>
+    <div class="photo-frame">
+      <img src="assets/foto-capa.jpeg" alt="Anne Ferreira" width="900" height="1200" fetchpriority="high">
+    </div>
+  </section>
+</div>
+
+<div class="wrap">
+  <section id="servicos">
+    <div class="section-head">
+      <h2>O que está incluso</h2>
+      <p>Trabalho completo de gestão, criação e acompanhamento — pensado para cada segmento de negócio.</p>
+    </div>
+    <div class="services">
+      <ul class="service-list">
+        <li>Planejamento mensal<span>Calendário de conteúdos alinhado ao ritmo do seu negócio.</span></li>
+        <li>Reels e vídeos<span>Criação e edição de Reels — pronto para receber seus vídeos.</span></li>
+        <li>Posts e stories<span>Criação de posts, stories e legendas com a identidade da marca.</span></li>
+        <li>Organização de feed<span>Perfil organizado para transmitir profissionalismo.</span></li>
+        <li>Métricas e estratégia<span>Acompanhamento de métricas e sugestões de conteúdo.</span></li>
+        <li>Monitoramento<span>Acompanhamento contínuo e divulgação de produtos e promoções.</span></li>
+      </ul>
+      <div class="reel-frame" id="reelFrame">
+        <div class="reel-badge">Reels</div>
+        <div class="reel-dots" id="reelDots"></div>
+        <video class="reel-video active" src="assets/reels/reel-1.mp4" poster="assets/reels/reel-1.jpg" preload="metadata" playsinline></video>
+        <video class="reel-video" src="assets/reels/reel-2.mp4" poster="assets/reels/reel-2.jpg" preload="none" playsinline></video>
+        <video class="reel-video" src="assets/reels/reel-3.mp4" poster="assets/reels/reel-3.jpg" preload="none" playsinline></video>
+        <video class="reel-video" src="assets/reels/reel-4.mp4" poster="assets/reels/reel-4.jpg" preload="none" playsinline></video>
+        <button class="reel-play" id="reelPlay" type="button" aria-label="Reproduzir reel"><span></span></button>
+        <button class="reel-mute" id="reelMute" type="button" aria-label="Ativar ou desativar o som">🔊</button>
+        <div class="reel-progress"><i id="reelBar"></i></div>
+      </div>
+    </div>
+  </section>
+</div>
+
+
+<div class="wrap">
+  <section id="plano">
+    <div class="plan">
+      <div>
+        <h2>Marketing Digital</h2>
+        <ul>
+          <li>Gerenciamento do Instagram</li>
+          <li>Planejamento mensal de conteúdos</li>
+          <li>Criação de posts, stories e legendas</li>
+          <li>Criação e edição de Reels</li>
+          <li>Divulgação de produtos, serviços e promoções</li>
+          <li>Organização do perfil e feed</li>
+          <li>Acompanhamento de métricas e sugestões de estratégia</li>
+        </ul>
+      </div>
+      <div class="plan-side">
+        <div class="label">Investimento</div>
+        <div class="value">"Mais do que publicações: um investimento na imagem e no crescimento do teu negócio."</div>
+        <div class="note">Condições de pagamento a combinar.</div>
+        <div class="freq">Conteúdos distribuídos ao longo do mês, conforme a necessidade e o segmento da empresa.</div>
+      </div>
+    </div>
+  </section>
+</div>
+
+<div class="wrap">
+  <section id="contato">
+    <div class="section-head">
+      <h2>Vamos conversar</h2>
+      <p>Fale direto pelo WhatsApp ou acompanhe o trabalho no Instagram.</p>
+    </div>
+    <div class="contact">
+      <a class="contact-card" href="https://wa.me/5517988165441" target="_blank" rel="noopener">
+        <span class="label">WhatsApp</span>
+        <span class="value">(17) 98816-5441</span>
+      </a>
+      <a class="contact-card" href="https://instagram.com/anne_ferreira_videomaker" target="_blank" rel="noopener">
+        <span class="label">Instagram</span>
+        <span class="value">@anne_ferreira_videomaker</span>
+      </a>
+    </div>
+  </section>
+</div>
+
+<footer>
+  Anne Ferreira · Marketing Digital
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
